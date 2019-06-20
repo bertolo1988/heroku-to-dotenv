@@ -1,0 +1,36 @@
+{
+  "name": "heroku-to-dotenv",
+  "version": "0.0.1",
+  "description": "Convert heroku config files to .env files.",
+  "main": "./lib/heroku-to-dotenv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf node_modules",
+    "lint": "eslint ."
+  },
+  "bin": {
+    "heroku-to-dotenv": "./bin/run.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertolo1988/heroku-to-dotenv.git"
+  },
+  "keywords": [
+    "hokeru",
+    "dotenv",
+    "config"
+  ],
+  "author": "bertolo1988 <tiagobertolo@gmail.com> (https://github.com/bertolo1988)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bertolo1988/heroku-to-dotenv/issues"
+  },
+  "homepage": "https://github.com/bertolo1988/heroku-to-dotenv#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
+}
