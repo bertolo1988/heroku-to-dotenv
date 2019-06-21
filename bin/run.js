@@ -3,9 +3,24 @@
 
 const argv = require('yargs')
   .usage('Usage: $0 -inputFile [path] -outputFile [path]')
-  .demandOption(['inputFile', 'outputFile'])
   .help('h')
-  .alias('h', 'help').argv
+  .alias('h', 'help')
+  .option({
+    inputFile: {
+      alias: 'input',
+      description: '<inputFile> Input file path',
+      requiresArg: true,
+      required: true
+    },
+    outputFile: {
+      alias: 'output',
+      description: '<outputFile> Output file path',
+      requiresArg: true,
+      required: true
+    }
+  })
+  .demandOption(['inputFile', 'outputFile'])
+  .epilog('Source at https://github.com/bertolo1988/heroku-to-dotenv').argv
 
 if (!argv.inputFile) {
   console.log('Missing input file')
