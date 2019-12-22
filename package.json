@@ -5,6 +5,7 @@
   "main": "./lib/heroku-to-dotenv.js",
   "scripts": {
     "test-only": "cross-env NODE_ENV=test mocha --recursive",
+    "test-debug": "NODE_ENV=test mocha --reporter list --inspect-brk --recursive --exit",
     "test": "npm run lint && npm run test-only",
     "clean": "rm -rf node_modules",
     "lint": "eslint ."
