@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/bertolo1988/heroku-to-dotenv.svg?branch=master)](https://travis-ci.com/bertolo1988/heroku-to-dotenv)
+
 # heroku-to-dotenv
 
 Helps to convert heroku configs downloaded using [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) to [dotenv](https://www.npmjs.com/package/dotenv) format.
