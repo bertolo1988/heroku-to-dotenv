@@ -1,6 +1,6 @@
 {
   "name": "heroku-to-dotenv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert heroku config files to .env files.",
   "main": "./lib/heroku-to-dotenv.js",
   "scripts": {
@@ -19,7 +19,8 @@
     "url": "git+https://github.com/bertolo1988/heroku-to-dotenv.git"
   },
   "keywords": [
-    "hokeru",
+    "heroku",
+    "heroku cli",
     "dotenv",
     "config"
   ],
