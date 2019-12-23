@@ -20,7 +20,7 @@
   },
   "keywords": [
     "heroku",
-    "heroku cli",
+    "heroku-cli",
     "dotenv",
     "config"
   ],
